@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex items-center justify-center flex-col my-32"
+      className="flex items-center justify-center flex-col my-32 mt-0"
     >
       {/* Title */}
       <div className="w-full flex items-center justify-center py-32">

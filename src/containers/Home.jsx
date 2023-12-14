@@ -24,7 +24,7 @@ const Home = () => {
         <div className="w-full h-full flex flex-col items-center lg:item-start justify-center gap-4">
           <h2 className="text-3xl lg:text-4xl text-texlight">
             Hola, soy
-            <span className="block tracking-wider text-4xl lg:text-6xl mt-6 text-primary">
+            <span className="block tracking-wider text-4xl lg:text-7xl mt-6 text-primary">
               {""}
               Jair Uribe{" "}
             </span>
@@ -37,7 +37,7 @@ const Home = () => {
               words={["Transformando ideas en arte visual."]}
             />
           </h2>
-          <p className="text-base text-texlight mt-6 text-center lg:text-left pb-7">
+          <p className="text-base text-texlight mt-6 text-center lg:text-left pb-7 text-xl">
             Apasionado por lo que hago y dispuesto a enfrentar desafíos. Amante
             de la transformación digital y la accesibilidad para lograr una
             verdadera inclusión. Mi punto único radica en mi versatilidad,

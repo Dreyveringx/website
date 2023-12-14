@@ -37,16 +37,16 @@ const Skills = () => {
       {/* main content */}
       <div className="">
         <div className="">
-          <p className="text-2xl text-primary ">
+          <p className="text-3xl text-primary ">
           En el camino del aprendizaje, persiguiendo la maestría
           </p>
-          <p className="text-texlight mt-10">
+          <p className="text-texlight mt-10 text-xl">
             Desarrollador frontend apasionado y recién graduado de un bootcamp, con experiencia práctica en tecnologías clave como HTML, CSS, JavaScript y React. Mi enfoque se centra en crear interfaces atractivas y funcionales utilizando herramientas modernas como Tailwind CSS y SASS. Apasionado por aprender y crecer en el mundo del desarrollo web, también tengo experiencia con Python y estoy entusiasmado por seguir explorando y expandiendo mis habilidades en esta emocionante industria.
           </p>
         </div>
 
         {/* skills */}
-        <div className=" flex items-center justify-center">
+        <div className=" flex items-center justify-center mt-8" >
         <div className="w-full p-4 sm:p-6 lg:p-8 max-w-screen-lg">
         <div className=" w-full grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-8 py-8 ">
         <SkillCard
