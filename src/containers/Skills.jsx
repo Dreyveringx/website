@@ -38,10 +38,10 @@ const Skills = () => {
       <div className="">
         <div className="">
           <p className="text-2xl text-primary ">
-            Mis habilidades y experiencia en el mundo de la programación
+          En el camino del aprendizaje, persiguiendo la maestría
           </p>
           <p className="text-texlight mt-10">
-            En el camino del aprendizaje, persiguiendo la maestría En el camino del aprendizaje, persiguiendo la maestría En el camino del aprendizaje, persiguiendo la maestría En el camino del aprendizaje, persiguiendo la maestría
+            Desarrollador frontend apasionado y recién graduado de un bootcamp, con experiencia práctica en tecnologías clave como HTML, CSS, JavaScript y React. Mi enfoque se centra en crear interfaces atractivas y funcionales utilizando herramientas modernas como Tailwind CSS y SASS. Apasionado por aprender y crecer en el mundo del desarrollo web, también tengo experiencia con Python y estoy entusiasmado por seguir explorando y expandiendo mis habilidades en esta emocionante industria.
           </p>
         </div>
 
