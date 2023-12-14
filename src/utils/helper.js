@@ -1,50 +1,32 @@
 import {
   FaDiagramProject,
   FaEnvelope,
-  FaFacebookF,
   FaGithub,
   FaHouse,
   FaLinkedinIn,
   FaRenren,
   FaUser,
-  FaYoutube,
 } from "react-icons/fa6";
-import {
-  ChatApp,
-  CodePenClone,
-  FreshJuiceUI,
-  ImageSharing,
-  OpenAI,
-  PixabayClone,
-  PortfolioFirebase,
-  RestaurantClone,
-  SocialMedia,
-} from "../assets";
+
+import MovieApi from "../assets/img/Project/thumb-movie-api.png";
+import PokedexApi from "../assets/img/Project/PokedexApi.png";
+import TodoList from "../assets/img/Project/TodoList.png";
+import Calculadora from "../assets/img/Project/Calculadora.png";
+import ClonDeezer from "../assets/img/Project/ClonDeezer.png";
+import WebTributo from "../assets/img/Project/WebTributo.png";
 
 export const Socials = [
   {
-    id: `facebook-${Date.now()}`,
-    Icon: FaFacebookF,
-    uril: "",
-    color: "#1877F2",
-  },
-  {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uril: "",
+    url: "https://www.linkedin.com/in/jairuribe",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uril: "",
+    url: "https://github.com/Dreyveringx",
     color: "#fff",
-  },
-  {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uril: "",
-    color: "#ff0000",
   },
 ];
 
@@ -53,87 +35,76 @@ export const Menus = [
     id: `home-${Date.now()}`,
     Icon: FaHouse,
     uri: "#home",
-    name: "Home",
+    name: "Inicio",
   },
   {
     id: `about-${Date.now()}`,
     Icon: FaUser,
     uri: "#about",
-    name: "About",
+    name: "Acerca de mi",
   },
   {
     id: `skills-${Date.now()}`,
     Icon: FaRenren,
     uri: "#skills",
-    name: "Skills",
+    name: "Habilidades",
   },
   {
     id: `projects-${Date.now()}`,
     Icon: FaDiagramProject,
     uri: "#projects",
-    name: "Projects",
+    name: "Proyectos",
   },
   {
     id: `contact-${Date.now()}`,
     Icon: FaEnvelope,
     uri: "#contact",
-    name: "Contact",
+    name: "Contacto",
   },
 ];
 
 export const ProjectsData = [
   {
-    id: `food-${Date.now()}`,
-    name: "Single Food Restaurant",
-    imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `movie-${Date.now()}`,
+    name: "Api Movies",
+    imgSrc: MovieApi,
+    gitURL: "https://github.com/Dreyveringx/Movie.git",
+    liveURL: "https://movie-lac-eight.vercel.app/",
   },
   {
-    id: `codepen-${Date.now()}`,
-    name: "CodePen Clone",
-    imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `pokedex-${Date.now()}`,
+    name: "Api Pokedex",
+    imgSrc: PokedexApi,
+    gitURL: "https://github.com/Dreyveringx/pokedex.git",
+    liveURL: "https://pokedex-three-ashen.vercel.app/",
   },
   {
-    id: `openai-${Date.now()}`,
-    name: "OpenAI",
-    imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `calculadora-${Date.now()}`,
+    name: "Calculadora",
+    imgSrc: Calculadora,
+    gitURL: "https://github.com/Dreyveringx/calculadora.git",
+    liveURL: "https://calculadora-inky-nine.vercel.app/",
   },
   {
-    id: `chatapp-${Date.now()}`,
-    name: "Chat App Build",
-    imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `todolist-${Date.now()}`,
+    name: "Todo List",
+    imgSrc: TodoList,
+    gitURL: "https://github.com/Dreyveringx/To-Do--List.git",
+    liveURL: "https://to-do-list-smoky-xi.vercel.app/",
   },
   {
-    id: `imageSharing-${Date.now()}`,
-    name: "Image Sharing App",
-    imgSrc: ImageSharing,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `clondeezer-${Date.now()}`,
+    name: "Clon Deezer",
+    imgSrc: ClonDeezer,
+    gitURL: "https://github.com/Dreyveringx/project.git",
+    liveURL: "https://project-alpha-silk.vercel.app/",
   },
   {
-    id: `pixabayclone-${Date.now()}`,
-    name: "Pixabay Clone 2.0",
-    imgSrc: PixabayClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `freshjuiceui-${Date.now()}`,
-    name: "Fresh Juice UI Build",
-    imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `socialmedia-${Date.now()}`,
-    name: "Social Media App",
-    imgSrc: SocialMedia,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
-    imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `webtributo-${Date.now()}`,
+    name: "Web Tributo",
+    imgSrc: WebTributo,
+    gitURL: "https://github.com/Dreyveringx/woorkbook_HTML.git",
+    liveURL: "https://woorkbook-html.vercel.app/",
+    figmaUrl: "https://www.figma.com/file/GMMjhsa4MtUsCCpfFn0hmp/Untitled?type=design&node-id=1%3A2&mode=design&t=bkFXmhJ7KArdPIkj-1",
   },
 ];
