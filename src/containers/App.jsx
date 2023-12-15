@@ -20,6 +20,7 @@ const App = () => {
         <Skills />
         < Projects />
         <Contact />
+        
 
         <Routes>
           <Route path="/" element={<Header />} />

@@ -26,7 +26,7 @@ const About = () => {
       <div className="w-full flex items-center justify-center px-4 ">
       <div className="w-full flex flex-col items-start justify-start">
         <p className="text-texlight text-base tracking-wide text-justify text-xl">
-        Hola, soy Jair Uribe.Estudiante apasionado por el desarrollo de software enfocado en diseñar interfaces atractivas y funcionales. Actualmente, adquiero habilidades en Python, HTML, CSS, JavaScript, FIGMA y React con un firme deseo de aprender y crecer en el campo del diseño web.
+        Hola, soy <span className="text-primary">Jair Uribe</span>, Estudiante apasionado por el desarrollo de software enfocado en diseñar interfaces atractivas y funcionales. Actualmente, adquiero habilidades en Python, HTML, CSS, JavaScript, FIGMA y React con un firme deseo de aprender y crecer en el campo del diseño web.
         </p>
       </div>
       </div>
