@@ -31,7 +31,7 @@ const About = () => {
       </div>
       </div>
       <div>
-        <h2 className="text-3xl lg:text-4xl text-texlight flex items-center justify-center mt-20 lg:mt-[-50px]">Intereses</h2>
+        <h2 className=" text-3xl lg:text-4xl text-texlight flex items-center justify-center mt-20 lg:mt-[-50px]">Intereses</h2>
         <ServiceCount />
       </div>
     </div>

@@ -5,7 +5,7 @@ import { FaHeadphones, FaPersonHiking } from "react-icons/fa6";
 
 const ServiceCount = () => {
   return (
-    <div className="w-full py-6  mt-10 flex items-center justify-center grid grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="w-full py-6  mt-10 flex items-center justify-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       <ServiceCard icon={<FaGamepad/>} text={"Juegos"} />
       <ServiceCard icon={<FaHeadphones/>} text={"Música"}/>
       <ServiceCard icon={<FaPlane/>} text={"Viajar"} />
