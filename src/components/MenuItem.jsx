@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const MenuItem = ({ menu }) => {
   const handleClick = () => {
-    const section = document.getElementById(menu.uri.substring(1)); // Quitamos el "#" del URI
+    const section = document.getElementById(menu.uri.substring(1)); 
     if (section) {
       section.scrollIntoView({ behavior: "smooth", block: "start" });
     }
