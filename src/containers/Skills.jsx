@@ -41,7 +41,7 @@ const Skills = () => {
           En el camino del aprendizaje, persiguiendo la maestría
           </p>
           <p className="text-texlight mt-10 text-xl">
-            Desarrollador frontend apasionado y recién graduado de un bootcamp, con experiencia práctica en tecnologías clave como HTML, CSS, JavaScript y React. Mi enfoque se centra en crear interfaces atractivas y funcionales utilizando herramientas modernas como Tailwind CSS y SASS. Apasionado por aprender y crecer en el mundo del desarrollo web, también tengo experiencia con Python y estoy entusiasmado por seguir explorando y expandiendo mis habilidades en esta emocionante industria.
+          Mi trayectoria en el desarrollo de software se ha fusionado con mi pasión por el diseño, dando como resultado una búsqueda constante por interfaces atractivas y funcionales. Enfocado en el diseño web, actualmente estoy inmerso en el aprendizaje de tecnologías clave como React, HTML, JavaScript,  CSS, Tailwind, Sass, Git, github y Figma. Este viaje de aprendizaje continuo refleja mi firme compromiso de crecimiento en el campo del diseño web. Mi motor impulsor es el diseño centrado en el usuario, buscando constantemente entregar experiencias digitales de alta calidad que no solo satisfagan, sino que deleiten a los usuarios. Esta combinación de habilidades técnicas y creativas se convierte en el cimiento sobre el cual construyo cada proyecto, siempre con la meta de superar expectativas y crear conexiones significativas a través del diseño digital.
           </p>
         </div>
 
