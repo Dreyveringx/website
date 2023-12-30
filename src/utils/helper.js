@@ -103,8 +103,9 @@ export const ProjectsData = [
     id: `webtributo-${Date.now()}`,
     name: "Web Tributo",
     imgSrc: WebTributo,
-    gitURL: "https://github.com/Dreyveringx/woorkbook_HTML.git",
-    liveURL: "https://woorkbook-html.vercel.app/",
-    figmaUrl: "https://www.figma.com/file/GMMjhsa4MtUsCCpfFn0hmp/Untitled?type=design&node-id=1%3A2&mode=design&t=bkFXmhJ7KArdPIkj-1",
+    gitURL: "https://github.com/Dreyveringx/Tributo.git",
+    liveURL: "https://tributo-nine.vercel.app/",
+    figmaUrl:
+      "https://www.figma.com/file/GMMjhsa4MtUsCCpfFn0hmp/Untitled?type=design&node-id=1%3A2&mode=design&t=bkFXmhJ7KArdPIkj-1",
   },
 ];
