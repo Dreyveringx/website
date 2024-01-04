@@ -110,8 +110,8 @@ export const ProjectsData = [
       "https://www.figma.com/file/GMMjhsa4MtUsCCpfFn0hmp/Untitled?type=design&node-id=1%3A2&mode=design&t=bkFXmhJ7KArdPIkj-1",
   },
   {
-    id: `webtributo-${Date.now()}`,
-    name: "Web Tributo",
+    id: `tictactoe-${Date.now()}`,
+    name: "Tic Tac Toe",
     imgSrc: TicTacToe,
     gitURL: "https://github.com/Dreyveringx/Tic-tac-toe.git",
     liveURL: "https://tic-tac-toe-smoky-ten.vercel.app/",
