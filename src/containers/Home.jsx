@@ -58,7 +58,7 @@ const Home = () => {
           <a
             href="#"
             style={{ boxShadow: "inset 0px 0px 10px rgba(255, 255, 255, 0.3)" }}
-            className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary"
+            className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 button active:95 group hover:border-primary"
             onClick={downloadPDF}
           >
             <p className="text-texlight group-hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
