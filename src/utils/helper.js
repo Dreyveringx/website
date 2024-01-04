@@ -14,6 +14,7 @@ import TodoList from "../assets/img/Project/TodoList.png";
 import Calculadora from "../assets/img/Project/Calculadora.png";
 import ClonDeezer from "../assets/img/Project/ClonDeezer.png";
 import WebTributo from "../assets/img/Project/WebTributo.png";
+import TicTacToe from "../assets/img/Project/TicTacToe.png";
 
 export const Socials = [
   {
@@ -107,5 +108,12 @@ export const ProjectsData = [
     liveURL: "https://tributo-nine.vercel.app/",
     figmaUrl:
       "https://www.figma.com/file/GMMjhsa4MtUsCCpfFn0hmp/Untitled?type=design&node-id=1%3A2&mode=design&t=bkFXmhJ7KArdPIkj-1",
+  },
+  {
+    id: `webtributo-${Date.now()}`,
+    name: "Web Tributo",
+    imgSrc: TicTacToe,
+    gitURL: "https://github.com/Dreyveringx/Tic-tac-toe.git",
+    liveURL: "https://tic-tac-toe-smoky-ten.vercel.app/",
   },
 ];
