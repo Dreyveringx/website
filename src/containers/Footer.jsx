@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-3 mt-10">
         <p className="text-texlight text-center">xdreyveringx@hotmail.com</p>
-        <p className="text-texlight text-center">+57 318 286 0380</p>
+        <p className="text-texlight text-center">+57 310 425 7781</p>
 
         <motion.a
           initial={{ opacity: 0, y: 25 }}
