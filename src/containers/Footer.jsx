@@ -18,7 +18,7 @@ const Footer = () => {
         </AnimatePresence>
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-3 mt-10">
-        <p className="text-texlight text-center">xdreyveringx@hotmail.com</p>
+        <p className="text-texlight text-center">xdreyveringx@outlook.com</p>
         <p className="text-texlight text-center">+57 310 425 7781</p>
 
         <motion.a
